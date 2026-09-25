@@ -143,7 +143,9 @@ span {
 .home-img img {
     position: relative;
     top: 3rem;
-    width: 32vw;
+    width: 20vw;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
     border-radius: 50%;
     box-shadow: 0 0 25px var(--main-color);
     cursor: pointer;
@@ -430,6 +432,8 @@ span {
 
 .portfolio-box img {
     width: 15rem;
+    height: 15rem;
+    object-fit: cover;
     border-radius: 50%;
     border: 3px solid var(--main-color);
     box-shadow: 0 0 25px var(--main-color);
